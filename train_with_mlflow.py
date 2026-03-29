@@ -9,6 +9,9 @@ import mlflow.sklearn                                        # sklearn 모델 �
 import os                                                    # 환경변수 읽기용
 from mlflow.tracking import MlflowClient                     # MLflow 서버 직접 조작용 클라이언트
  
+
+
+ 
 # ── MLflow 연결 설정 ──────────────────────────────────────────
 # 환경변수 MLFLOW_TRACKING_URI가 있으면 사용, 없으면 로컬 서버 주소로 대체
 # GitHub Actions에서는 Secrets에 등록된 값이 자동으로 환경변수로 주입됨
